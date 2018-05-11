@@ -1,19 +1,19 @@
 <template>
-  <div>
-    <div class="menu-title">
-      <button>Menu</button>
-    </div>
-    <div>
-      <div class="menu-section">
-        <button>Section-1</button>
-        <button>Section-2</button>
-        <button>Section-3</button>
-      </div>
-      <div class="router">
+  <section class="el-container is-vertical">
+    <header class="el-header menu-title" style="height: 60px;">
+      <el-button>Menu</el-button>
+    </header>
+    <section class="el-container">
+      <aside class="el-aside" style="width: 200px;">
+        <el-button>Section-1</el-button>
+        <el-button>Section-2</el-button>
+        <el-button>Section-3</el-button>
+      </aside>
+      <main class="el-main">
         {{msg}}
-      </div>
-    </div>
-  </div>
+      </main>
+    </section>
+  </section>
 </template>
 
 <script>
